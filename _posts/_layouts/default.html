@@ -3,17 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 </head>
 <body>
   <header>
     <h1>{{ site.title }}</h1>
     <nav>
         <nav>
-            <a href="/">Inicio</a> |
-            <a href="/about.html">Acerca de</a> |
-            <a href="/contact.html">Contacto</a> |
-            <a href="/proyectos.html">Proyectos</a>
+            <nav>
+                <a href="/">Inicio</a> |
+                <a href="/about.html">Acerca de</a> |
+                <a href="/contact.html">Contacto</a> |
+                <a href="/proyectos.html">Proyectos</a>
+              </nav>              
           </nav>          
     </nav>
   </header>
