@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Examen Final introduccion a sistemas de computo
+title: Proyecto Examen final
 email: mmoreirae1@miumg.edu.gt
 description: >- 
   Examen final de Mario Moreira.
 baseurl: "/Jekyll-Examenfinal" 
 url: "https://mario-moreiracz.github.io" 
-github_username:  Mario-Moreiracz
+github_username: Mario-Moreiracz
 
 # Build settings
 #theme: minima
